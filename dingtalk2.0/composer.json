@@ -1,0 +1,14 @@
+{
+    "name": "jokechat/dingtalk",
+    "description": "dingtalk library",
+    "type": "library",
+    "require": {
+        "mashape/unirest-php": "3.*",
+        "satooshi/php-coveralls": "^1.0"
+    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload" : {
+	"psr-4" : {"DingTalk\\": "src/DingTalk"}
+    }
+}
